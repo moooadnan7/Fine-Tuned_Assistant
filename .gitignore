@@ -1,0 +1,23 @@
+# Model outputs
+outputs/
+lora-finetuned/
+lora-merged/
+lora-output/
+*.safetensors
+*.bin
+
+# Data
+data/*.csv
+data/*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Colab
+.config/
